@@ -4,7 +4,7 @@ import User from "../models/User.js";
 import { deleteStreamUser, upsertStreamUser } from "./stream.js";
 
 
-export const inngest = new Inngest({ id: "TALENT-IQ-1.0" });
+export const inngest = new Inngest({ id: "pair-iq" });
 
 const syncUser = inngest.createFunction(
     {id:"sync-user"},
